@@ -8,4 +8,8 @@ jobs:
     steps:
       - uses: docker://pandoc/core:latest
         with:
-          args: "--help"
+          args: |
+            --from=docx 
+            --to=gfm
+            --output=CV.md
+           CV.docx
