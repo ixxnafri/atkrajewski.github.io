@@ -3,6 +3,7 @@ name: Simple Usage
 on: push
 
 jobs:
+  working-directory: ./
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
