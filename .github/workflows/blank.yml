@@ -27,4 +27,3 @@ jobs:
         COMMIT_MESSAGE: Add .md files.
         PULL_REQUEST_TITLE: Add .md files.
         PULL_REQUEST_BRANCH: md-add
-        PULL_REQUEST_BODY: :wave: Here are the .md files you requested.
