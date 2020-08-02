@@ -1,0 +1,19 @@
+name: Convert .Docx to Markdown
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload Document
+        working-directory: ./personal
+        run: |
+          "CV.docx" > docx2
+
+      - name: Convert Document
+        uses: docker://pandoc/core:2.9
+        with:
+          args: | # allows you to break string into multiple lines
+            '-f docx -t gfm -o "CV.md"
+            docx2
