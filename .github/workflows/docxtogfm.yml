@@ -6,6 +6,6 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - uses: ddocker://pandoc/core:2.9
+      - uses: docker://pandoc/core:2.9
         with:
           args: -f docx -t gfm "Krajewski - CV.docx" -o "CV.md"
