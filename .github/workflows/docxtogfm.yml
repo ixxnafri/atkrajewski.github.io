@@ -6,7 +6,7 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - working-directory: /personal/
       - uses: docker://pandoc/core:latest
+        working-directory: /personal/
         with:
           args: '-f docx -t gfm "CV.docx" -o "CV.md"'
