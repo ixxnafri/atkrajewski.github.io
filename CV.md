@@ -10,11 +10,11 @@ Phone Number: (817) 239-5294
 
 Email: <avk5726@psu.edu>
 
-**<u>RESEARCH INTERESTS</u>**
+**[RESEARCH INTERESTS]{.ul}**
 
 > Social Networks, Situational Factors and Violence
 
-**<u>Education</u>**
+**[Education]{.ul}**
 
 **Current** Ph.D. Candidate, The Pennsylvania State University,
 Criminology
@@ -40,18 +40,18 @@ Committee: Jennifer Bosson (Chair), Donna Cohen, Jane Noll
 
 **2013** Fulbright United Kingdom Summer Institute
 
-Queen’s University, Belfast, Northern Ireland
+Queen's University, Belfast, Northern Ireland
 
-**<u>JOURNAL ARTICLES</u>**
+**[JOURNAL ARTICLES]{.ul}**
 
 Rogers, E. M., Felson, R. B., Berg, M. T., Krajewski, A. Taking sides:
 Gender and third‐party
 
-> partisanship in disputes. *Criminology*. 2019; 57: 579– 602.
+> partisanship in disputes. *Criminology*. 2019; 57: 579-- 602.
 > <https://doi.org/10.1111/1745-9125.12215>.
 
 Felson, R. B., Berg, M. T., Rogers, E. M., & Krajewski, A. (2018).
-Disputatiousness and the Offender–
+Disputatiousness and the Offender--
 
 Victim Overlap. *Journal of Research in Crime and Delinquency*, *55*(3),
 351-389.
@@ -61,7 +61,7 @@ resilience interventions: An urgent research
 
 priority. *Topics in Geriatric Rehabilitation*, *30*(3), 199-206.
 
-**<u>BOOK CHAPTERS</u>**
+**[BOOK CHAPTERS]{.ul}**
 
 Cohen, D., & Krajewski, A. (2019). Older Adults. *Foundations of
 Behavioral Health*, 231.
@@ -71,10 +71,10 @@ Health Resilience Interventions.
 
 In *Resilience in Aging* (pp. 331-345).
 
-**<u>ARTICLES UNDER REVIEW</u>**
+**[ARTICLES UNDER REVIEW]{.ul}**
 
 Krajewski, A. T., Felson, R. B. The criminal backgrounds of
-"white-collar offenders.”
+\"white-collar offenders."
 
 (Submitted December, Under Review).
 
@@ -89,9 +89,9 @@ flat networks: Centrality and
 criminal collaboration in the Italian-American mafia. (Submitted
 October, Under Review).
 
-**<u>CONFERENCE PRESENTATIONS</u>**
+**[CONFERENCE PRESENTATIONS]{.ul}**
 
-Krajewski, A. (2019, November). *Intoxication’s Effect on Aggression
+Krajewski, A. (2019, November). *Intoxication's Effect on Aggression
 Against Men and Women*.
 
 Presented at the American Society of Criminology, San Francisco, CA.
@@ -117,9 +117,9 @@ Krajewski, A., Bosson, J. (2014, April). *Attributions of Compassion the
 Context of Helping Behavior: Does the Gender of Helper Matter.* Poster
 presented at the University of
 
-South Florida's Psychology Exposition.
+South Florida\'s Psychology Exposition.
 
-**<u>TEACHING EXPERIENCE</u>**
+**[TEACHING EXPERIENCE]{.ul}**
 
 **As Instructor:**
 
@@ -127,7 +127,7 @@ South Florida's Psychology Exposition.
 
 **2018** CRIM 012: Introduction to Criminology, Penn. State University
 
-**  
+**\
 **
 
 **As Teaching Assistant:**
@@ -140,7 +140,7 @@ South Florida's Psychology Exposition.
 
 **2016 /** CRIM 421: Criminal Violence, Penn. State University
 
-**<u>PROFESSIONAL SERVICE</u>**
+**[PROFESSIONAL SERVICE]{.ul}**
 
 **2018 /** Departmental Methods & Statistics Advisory Board
 
