@@ -1,14 +1,22 @@
-name: Convert .Docx to Markdown
+name: Advanced Usage
 
-on: [push]
+on: push
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps: 
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
       - uses: actions/checkout@v2
+      - run: |
+          echo "Lorem ipsum" > lorem_1.md  # create two example files
+          echo "dolor sit amet" > lorem_2.md
+          mkdir output  # create output dir
+          # this will also include README.md
+          echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
       - uses: docker://pandoc/core:2.9
         with:
-          args: | # allows you to break string into multiple lines
-            --output=CV.md
-            /personal/CV.docx
+          args: --output=output/result.md ${{ env.FILELIST }}
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
