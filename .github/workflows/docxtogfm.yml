@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: docker://pandoc/core:2.9
         with:
-          args: -f docx -t gfm "/Krajewski - CV.docx" -o "/CV.md"
+          args: '-f docx -t gfm "Krajewski - CV.docx" -o "CV.md"'
