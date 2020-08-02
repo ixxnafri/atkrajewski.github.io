@@ -15,6 +15,6 @@ plainwhite:
   
   navigation:
     - title: My Work
-      url: "/_projects/test1"
+      url: "/_projects/test1.md"
     - title: Resume
       url: "/resume"
