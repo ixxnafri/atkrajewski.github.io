@@ -12,5 +12,5 @@ jobs:
           args: | # allows you to break string into multiple lines
             --from=docx
             --to=gfm
-            --output=CV.md
-            CV.docx
+            --output=CV
+            atkrajewski.github.io/personal/CV.docx
