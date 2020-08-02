@@ -10,5 +10,7 @@ jobs:
       - uses: docker://pandoc/core:2.9
         with:
           args: | # allows you to break string into multiple lines
-            '-f docx -t gfm -o "CV.md"'
+            --from=docx
+            --to=gfm
+            --output=CV.md
             CV.docx
