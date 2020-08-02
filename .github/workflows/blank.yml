@@ -5,14 +5,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Upload Document
-        working-directory: ./personal
-        run: |
-          CV.docx > CV.docx
-
-      - name: Convert Document
-        uses: docker://pandoc/core:2.9
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: docker://pandoc/core:2.9
         with:
           args: | # allows you to break string into multiple lines
             '-f docx -t gfm -o "CV.md"'
