@@ -1,22 +1,30 @@
-name: Advanced Usage
+name: Convert DocX to Markdown
 
-on: push
+on:
+  push:
+    paths:
+    - 'CV.docx'
 
 jobs:
-  convert_via_pandoc:
-    runs-on: ubuntu-18.04
+  convert_md: 
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-          echo "Lorem ipsum" > lorem_1.md  # create two example files
-          echo "dolor sit amet" > lorem_2.md
-          mkdir output  # create output dir
-          # this will also include README.md
-          echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
-      - uses: docker://pandoc/core:2.9
-        with:
-          args: --output=output/result.md ${{ env.FILELIST }}
-      - uses: actions/upload-artifact@master
-        with:
-          name: output
-          path: output
+    # We must checkout the latest version of the code to get a copy of all .md files
+    - name: Checkout Code
+      uses: actions/checkout@v2.0.0
+      with:
+        fetch-depth: 1
+    - name: Create .pdfs
+      uses: docker://pandoc/core:latest
+      env: {
+        PDF_DIR: './personal'
+      }
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v1.6.1
+      env:
+        # The token is built in to actions. No config required.
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COMMIT_MESSAGE: Add .md files.
+        PULL_REQUEST_TITLE: Add .md files.
+        PULL_REQUEST_BRANCH: md-add
+        PULL_REQUEST_BODY: :wave: Here are the .md files you requested.
