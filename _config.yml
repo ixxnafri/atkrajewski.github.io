@@ -16,5 +16,5 @@ plainwhite:
   navigation:
     - title: test2
       url: "/test2"
-    - title: Resume
-      url: "/resume"
+    - title: Resume2
+      url: "/personal/resume"
